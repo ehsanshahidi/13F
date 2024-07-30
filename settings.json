@@ -1,0 +1,9 @@
+{
+    "python.pythonPath": "/backend/.venv/bin/python",
+    "python.analysis.extraPaths": [
+        "./venv/lib/python3.x/site-packages"
+    ],
+    "python.autoComplete.extraPaths": [
+        "./venv/lib/python3.x/site-packages"
+    ]
+}
