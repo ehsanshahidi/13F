@@ -1,0 +1,64 @@
+{
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "cSpell.words": [
+        "datetime",
+        "denormalize",
+        "isnot",
+        "isoparse",
+        "jsonschema",
+        "lookback",
+        "onupdate",
+        "outerjoin",
+        "parseable",
+        "pysnooper",
+        "pytest",
+        "subq",
+        "testid",
+        "venv"
+    ],
+    "python.testing.pytestArgs": [
+        "--cov-report=term",
+        "--cov-report=html"
+    ],
+    "python.analysis.typeCheckingMode": "off",
+    "python.linting.enabled": false,
+    "python.linting.flake8Enabled": false,
+    "notebook.codeActionsOnSave": {
+        "source.fixAll": true,
+        "source.organizeImports": true
+    },
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.codeActionsOnSave": {
+        "source.fixAll": "explicit",
+        "source.organizeImports": "explicit"
+    },
+    "prettier.enable": true,
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+        "editor.maxTokenizationLineLength": 2500,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[typescript]": {
+        "editor.maxTokenizationLineLength": 2500,
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+    },
+    "[python]": {
+        "diffEditor.ignoreTrimWhitespace": false,
+        "editor.formatOnType": true,
+        "editor.wordBasedSuggestions": "off",
+        "editor.defaultFormatter": "charliermarsh.ruff"
+    },
+    "files.autoSave": "onFocusChange",
+    "prettier.configPath": ".prettierrc",
+    "prettier.documentSelectors": [
+        "${workspaceFolder}\\frontent\\src\\**\\*.{ts,js}"
+    ],
+    "editor.formatOnSave": true,
+    "python.defaultInterpreterPath": "${workspaceFolder}/backend/.venv/bin/python",
+    "jest.autoRevealOutput": "on-run",
+    "jest.autoRun": "off",
+    "multiDiffEditor.experimental.enabled": true
+}

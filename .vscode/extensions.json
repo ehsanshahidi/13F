@@ -1,0 +1,27 @@
+{
+	"recommendations": [
+		"ms-python.autopep8",
+		"alefragnani.bookmarks",
+		"dbaeumer.vscode-eslint",
+		"tamasfe.even-better-toml",
+		"mhutchie.git-graph",
+		"waderyan.gitblame",
+		"github.vscode-pull-request-github",
+		"firsttris.vscode-jest-runner",
+		"ms-toolsai.jupyter",
+		"xyz.local-history",
+		"ms-playwright.playwright",
+		"esbenp.prettier-vscode",
+		"ms-python.vscode-pylance",
+		"ms-python.python",
+		"kevinrose.vsc-python-indent",
+		"charliermarsh.ruff",
+		"qwtel.sqlite-viewer",
+		"streetsidesoftware.code-spell-checker",
+		"orta.vscode-jest"
+	],
+	"unwantedRecommendations": [
+		"ms-python.pylint",
+		"ms-python.flake8"
+	]
+}
