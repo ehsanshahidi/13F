@@ -2,7 +2,7 @@
 name = "13f-analyzer"
 version = "0.1.0"
 description = ""
-authors = ["Ehsan Shahidi <ehsan.shahidi@seeq.com>"]
+authors = ["Ehsan Shahidi <ehsan.shahidi@gmail.com>"]
 readme = "README.md"
 
 [tool.poetry.dependencies]
